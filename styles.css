@@ -75,4 +75,11 @@ body .container #clearToDo:active {
 .to-dos {
   margin-top: 25px;
 }
+
+@media only screen and (max-width: 400px) {
+    #addToDo, #clearToDo{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}
 /*# sourceMappingURL=styles.css.map */
